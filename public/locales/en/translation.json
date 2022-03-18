@@ -40,7 +40,7 @@
     }
   },
   "about": {
-    "text": "This app is a web version of the above 2 apps: Foreword and YuuJin. \n\n It is developed with the aim of helping students who are studying N5 and find difficult in remembering studied vocabularies. \n\n You can learn vocabularies on `Learn` page, although you can study them with the documents provided by your training class, able to mark vocabularies difficult, and can practice those vocabularies randomly in `Practice` Page. Choose range of lessons you want to practice, practice type, and what you want to see and don't want to see. \n\n If you do not want to forget, you have to warm up every day."
+    "text": "This app is a web version of the above 2 apps: Foreword and YuuJin. \n\n It is developed with the aim of helping students who are studying N5 and find difficult in remembering studied kanjis. \n\n You can learn kanjis on `Learn` page, although you can study them with the documents provided by your training class, able to mark kanjis difficult, and can practice those kanjis randomly in `Practice` Page. Choose range of lessons you want to practice, practice type. \n\n If you do not want to forget, you have to warm up every day."
   },
   "notFound": {
     "text": "Our apologies, but we couldn't find that page. Is it possible that you found a bad link?",
