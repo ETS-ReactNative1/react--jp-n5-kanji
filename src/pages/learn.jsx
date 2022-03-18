@@ -133,7 +133,7 @@ const Learn = ({ currentLang }) => {
         <div className="flex justify-between items-center mt-5">
           <button
             onClick={handleModal}
-            className={`text-white bg-lime-500 shadow-md hover:bg-lime-600 focus:ring-4 focus:ring-lime-300 rounded-xl text-sm px-4 py-2 text-center dark:bg-lime-600dark:hover:bg-lime-700 dark:focus:ring-lime-800 ${
+            className={`text-white bg-emerald-500 shadow-md hover:bg-emerald-600 focus:ring-4 focus:ring-emerald-300 rounded-xl text-sm px-4 py-2 text-center dark:bg-emerald-600dark:hover:bg-emerald-700 dark:focus:ring-emerald-800 ${
               currentLang === 'my-MM' && 'font-semibold'
             }`}
             type="button">
@@ -156,11 +156,11 @@ const Learn = ({ currentLang }) => {
           <div className="text-right">
             <span className="ml-3 font-bold block">
               {t('learn.body.lesson')}:{' '}
-              <span className="bg-lime-300 text-lime-800 px-3 py-2 rounded-full">
+              <span className="bg-emerald-300 text-emerald-800 px-3 py-2 rounded-full">
                 {lesson}
               </span>
             </span>
-            <span className="text-sm text-lime-700 inline-block pt-2">
+            <span className="text-sm text-emerald-700 inline-block pt-2">
               {favoritesInSelectedLesson.length} {t('learn.body.favorite')} /{' '}
               {lessonFile.length} {t('learn.body.total')}
             </span>
@@ -168,9 +168,9 @@ const Learn = ({ currentLang }) => {
         </div>
 
         <TableContainer component={Paper} sx={{ mt: 3 }}>
-          <Table sx={{ minWidth: 150 }} aria-label="a dense table">
+          <Table sx={{ minWidth: 150 }} size="small" aria-label="a dense table">
             <TableHead>
-              <TableRow className="bg-lime-50">
+              <TableRow className="bg-emerald-50">
                 <TableCell width="auto">
                   <Typography style={{ fontWeight: 600 }}>
                     {t('learn.body.no')}
@@ -213,7 +213,9 @@ const Learn = ({ currentLang }) => {
                       </span>
                     </TableCell>
                     <TableCell align="left" className="w-auto">
-                      {data.romaji}
+                      <span className="jp-font font-semibold">
+                        {data.romaji}
+                      </span>
                     </TableCell>
                     <TableCell align="left" className="w-auto">
                       <span className="text-gray-700 font-semibold">

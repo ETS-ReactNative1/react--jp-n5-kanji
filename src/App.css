@@ -1,13 +1,13 @@
 .active {
   color: #ffffff;
-  background-color: #84cc16;
+  background-color: #10b981;
   display: block;
   padding: 0.5rem;
 }
 
 .active-choice {
   color: #ffffff;
-  background-color: #84cc16;
+  background-color: #10b981;
   display: block;
   padding: 0.5rem;
 }
@@ -16,7 +16,7 @@
 @media only screen and (max-width: 600px) {
   .active {
     color: #ffffff;
-    background-color: #84cc16;
+    background-color: #10b981;
     display: block;
   }
 }
@@ -81,5 +81,9 @@ body {
 }
 
 .card .back {
+  background-color: #10b981;
+  color: white;
+  position: absolute;
+  border-radius: 5px;
   transform: rotateY(180deg);
 }

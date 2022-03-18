@@ -205,7 +205,7 @@ const Practice = ({ currentLang }) => {
             {/* modal open button */}
             <button
               onClick={handleModal}
-              className={`text-white bg-lime-500 shadow-md hover:bg-lime-700 focus:ring-4 focus:ring-lime-300 rounded-full text-sm px-5 py-2.5 text-center dark:bg-lime-600 dark:hover:bg-lime-700 dark:focus:ring-lime-800 ${
+              className={`text-white bg-emerald-500 shadow-md hover:bg-emerald-700 focus:ring-4 focus:ring-emerald-300 rounded-full text-sm px-5 py-2.5 text-center dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800 ${
                 currentLang === 'my-MM' && 'font-semibold'
               }`}
               type="button">
@@ -254,7 +254,7 @@ const Practice = ({ currentLang }) => {
             </div>
           ) : (
             <div className="flex flex-col justify-center mx-auto mt-10">
-              <span className="items-center justify-center text-lime-600 bg-lime-100 px-2 py-1 rounded-full">
+              <span className="items-center justify-center text-emerald-600 bg-emerald-100 px-2 py-1 rounded-full">
                 {t('practice.noData')}{' '}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -315,7 +315,7 @@ const Practice = ({ currentLang }) => {
                         />
                       </svg>
                     </h3>
-                    {/* <span className="text-xs text-lime-500 font-semibold">
+                    {/* <span className="text-xs text-emerald-500 font-semibold">
                       some description
                     </span> */}
 
@@ -418,7 +418,7 @@ const Practice = ({ currentLang }) => {
                     {/* submit button */}
                     <button
                       type="submit"
-                      className="w-full font-bold text-white bg-lime-500 hover:bg-lime-800 focus:ring-4 focus:ring-lime-300 rounded-lg text-sm px-5 py-2.5 text-center dark:bg-lime-600 dark:hover:bg-lime-700 dark:focus:ring-lime-800">
+                      className="w-full font-bold text-white bg-emerald-500 hover:bg-emerald-800 focus:ring-4 focus:ring-emerald-300 rounded-lg text-sm px-5 py-2.5 text-center dark:bg-emerald-600 dark:hover:bg-emerald-700 dark:focus:ring-emerald-800">
                       {t('practice.modal.startButton')}{' '}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
